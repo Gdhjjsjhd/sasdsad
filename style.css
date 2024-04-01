@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+
+body{
+    color:white;
+    background-image: url(c79c391c1fd4f1ebbc34628fe7c78a49.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgba(41, 41, 41, 0.8);
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="data"],
+input[type="time"]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#Logo{
+    width: 500px;
+    height: 500px;
+}
+
+#title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 216, 23);
+    text-shadow: 
+        -2px -2px 0 black,
+        -2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black
+}
+
+legend{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.colunas{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nascimento{
+    margin: 5px;
+    text-align: center;
+}
+
+input[type="color"]{
+    width: 50px;
+    height: 20px;
+    border: none;
+}
+
+.radio-opiton{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.envio{
+    display: flex;
+    align-items: center;
+}
+
+#aceito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 5px;
+}
+
+textarea{
+    resize: none;
+
+    width: 98%;
+}
+
+.botoes{
+    display: flex;
+    
+}
+

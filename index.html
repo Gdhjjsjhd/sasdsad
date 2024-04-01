@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <forms class="forms">
+                <h1 id="title">
+                    SescWart's 🐒
+                </h1>
+
+                <fieldset>
+             
+
+                     <legend>
+                        Informações Pessoais
+                    </legend><br>
+                    
+
+                    <label for="nome">
+                        Bruxo(a)
+                    </label>
+
+                    <input 
+                        type="nome"
+                        id="nome"
+                        name="nome"
+                        placeholder="seu nome aqui"
+                        required
+                    />
+
+                    <label for="email">
+                        Coruja
+                    </label>
+
+                    <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="seu email aqui"
+                        required
+                    />
+
+                        <label for="password"> 
+                            Senha:
+                        </label>
+
+                        <input 
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="sua senha bruxa aqui"
+                            required
+                        />
+
+                        <div class="coluna">
+
+                            <div class="nascimento">
+
+                                <label for="dtnasc"class="dtnasc">
+                                    Data de nascimento
+                                </label>
+                                <input 
+                                    type="date" 
+                                    name="dtnasc" 
+                                    id="dtnasc" 
+                                    required
+                                />
+
+                            </div>
+
+                            <div class="nascimento">
+
+                                <label for="time">
+                                    Hora do nascimento
+                                </label>
+                                
+                                <input 
+                                    type="time" 
+                                    name="time" 
+                                    id="time" 
+                                    required
+                                />
+
+                            </div>
+
+                        </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias</legend>
+
+                    <label> Escolha sua matéria favorita</label>
+
+                    <div class="radio-opition">
+
+                        🦧<input type="radio" name="matéria_favorita"id="feiticos" value="feiticos">
+                        <label for="feitcos"> Feitiços</label>
+
+                        🦍<input type="radio" name="matéria_favorita"id="informatica" value="informatica">
+                        <label for="informatica">Informática</label>
+
+                        🐱‍👤<input type="radio" name="matéria_favorita"id="pocoes" value="pocoes">
+                        <label for="pocoes"> Poções</label>
+
+                        🐲<input type="radio" name="matéria_favorita"id="criaturas" value="criaturas">
+                        <label for="criaturas"> Criaturas</label>
+
+                    </div>
+
+                    <div class="colunas">
+                        <div id="corcolunas">
+                            <label for="cor">Cor Favorita:</label>
+                            <input type="color" name="cor" id="cor">
+                        </div>
+
+                        <div id="corcolunas">
+                            <label for="casa">Escolha sua casa:</label>
+                            <select name="casa" id="casa">
+
+                                <option value="no">Sem preferências🙅‍♂️</option>
+
+                                <option value="grifinoria">Grifinória🦁</option>
+
+                                <option value="Sonserina">Sonserina🐍</option>
+
+                                <option value="lufa-lufa">Lufa-Lufa🦡</option>
+
+                                <option value="corvinal">Corvinal🦉</option>
+                            </select>
+                            
+                            
+                           
+                        </div>
+                    </div>
+
+
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feedback's🦅</legend>
+                    <label for="comentarios">Comentários:</label>
+
+                    <textarea name="comentários" id="comentários" cols="50" rows="4"></textarea> <br> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Envio🐥</legend> <br>
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="aceito" id="aceito" required>
+                        <label for="aceito">Eu aceito os Tremos e Condições</label>
+                    </div>
+
+                    <div class="botoes">
+                        <input type="reset" value="Reset">
+                        <input type="submit"value="Submit">
+                    </div>
+
+                </fieldset>
+
+            </forms>
+            
+            <div class="imgLogo">
+                <img src="0a410e3a4f03610eed0dbbbcd2f0a3db.png" alt="Logo harry potter"id="Logo">
+            </div>
+    
+        </div>
+    </div>  
+</body>
+</html>

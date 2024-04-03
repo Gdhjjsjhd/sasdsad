@@ -22,13 +22,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
+    
+
+
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 fieldset{
     width: 500px;
@@ -52,6 +52,7 @@ input[type="time"]{
 #Logo{
     width: 500px;
     height: 500px;
+    
 }
 
 #title{
@@ -111,6 +112,7 @@ input[type="color"]{
 
 .checkbox{
     margin-right: 5px;
+
 }
 
 textarea{
@@ -121,6 +123,63 @@ textarea{
 
 .botoes{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#casa option[value="grifinoria"]{
+   background-color:  red;
+    color: white;
+}
+
+#casa option[value="Sonserina"]{
+    background-color:  green;
+    color:aliceblue;
+}
+
+#casa option[value="lufa-lufa"]{
+   background-color:  blue;
+    color: white;
+}
+
+#casa option[value="corvinal"]{
+    background-color:  yellow;
+    color: white;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#casa{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.conteudo{
+  
+    width: 650px;
     
 }
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  
+}
+
 
